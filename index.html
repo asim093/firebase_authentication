@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Authentication - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="#" id="login-form">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <a href="register.html">Not a User? Register</a>
+        <a href="forgotpassword.html">Forgot Password</a>
+        <div class="oauth-buttons">
+
+
+            <button id="google-login">
+
+                <img src="https://tse2.mm.bing.net/th?id=OIP.lpL40VJTphR3MOem2e7MkQHaEK&pid=Api&P=0&h=220"
+                    alt="Google Login">
+                    <p>Google Login</p>
+            </button>
+
+
+            <button id="github-login">
+
+                <img src="https://tse4.mm.bing.net/th?id=OIP.dDNpLKu_oTLzStsDTnkJ-gHaCv&pid=Api&P=0&h=220"
+                    alt="GitHub Login">
+                    <p>GitHub Login</p>
+            </button>
+        </div>
+    </div>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
